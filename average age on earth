@@ -1,0 +1,17 @@
+average age on earth 
+
+age = input()
+#converting the string to integer
+int_age = int(age)
+
+#calculating the age in weeks
+new_age = int_age * 52
+
+ave_life = 90
+
+#calculating the average age in weeks
+ave_life_weeks = ave_life * 52
+
+weeks_left = ave_life_weeks - new_age
+
+print(f"You have {weeks_left} weeks left.")
